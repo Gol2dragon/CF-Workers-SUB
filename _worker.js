@@ -103,7 +103,7 @@ export default {
 	
 			const timeout = setTimeout(() => {
 				controller.abort(); // 取消所有请求
-			}, 12000); // 2秒后触发
+			}, 2000); // 2秒后触发
 	
 
 			let 追加UA = 'v2rayn';
